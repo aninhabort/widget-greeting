@@ -1,0 +1,17 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    color: #9f6b53;
+    text-align: center;
+}
+
+#widget {
+    font-size: xx-large;
+    padding: 5px;
+    text-align: center;
+    line-height: 1.5;
+    height: 85%
+}
+
+#today{
+    font-size: large;
+}
