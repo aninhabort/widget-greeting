@@ -11,7 +11,7 @@ weekday[6] = "Saturday";
 let today = new Date();
 let hrs = today.getHours();
 let min = today.getMinutes();
-let hours = `${hrs}:${min}`
+let hours = `${hrs}:${min > 10 ? '0' + min : min}`
 let dayOfWeek = weekday[today.getDay()];
 let date = dayOfWeek + " " + today.getDate() + "/" + (today.getMonth() + 1) + '/' + today.getFullYear();
 
