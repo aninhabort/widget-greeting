@@ -25,4 +25,4 @@ else if (hrs >= 17 && hrs <= 24)
     greet = 'Good Evening ';
 
 document.getElementById('widget').innerHTML =
-    greet += `Ana!` + `<div id="today">${date} - ${hours}</div>`;
+    greet += `<div id="today">${date} - ${hours}</div>`;
